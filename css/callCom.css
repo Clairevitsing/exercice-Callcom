@@ -1,0 +1,59 @@
+.navbar-brand img{
+    width:100%;
+    max-width:100px;
+}
+
+
+.separator1{
+    background-color: blue;
+    width: 50px;
+    height: 4px;
+    max-width: 50px;
+}
+
+.two-pictures{
+    background-image: url(../img/organic-form.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.separator2{
+    background-color: blue;
+    width: 100px;
+    height: 4px;
+    max-width: 100px;
+}
+
+.découvrir{
+    position:relative;
+    top:50%;
+
+}
+
+.offres{
+    background: url(./img/organic-form.png) no-repeat center;
+    background-size: cover;
+}
+.separator3, .separator4, .separator5{
+    background-color: blue;
+    width: 100px;
+    height: 4px;
+    max-width: 100px;
+}
+
+.offres{
+    background-image: url(../img/phone-bg-image.jpg);
+    background-size: cover;
+    height:100vh;
+}
+
+.video{
+    background: url(../img/buildings.jpg) no-repeat center;
+    background-size:cover;
+    height:100vh;
+}
+
+.champ{
+    max-width: 300px;
+}

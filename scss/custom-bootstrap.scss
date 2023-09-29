@@ -1,0 +1,64 @@
+// $blue: #25a2e5;
+// 为了改变默认颜色,这种情况下只需要@import "../bootstrap/scss/bootstrap";
+
+// $btn-padding-y:               0.5rem !default;
+// $btn-padding-x:               1.5rem !default;
+// $btn-border-width:            2px !default;
+// $btn-font-size:               0.7rem !default;
+// $dgreen:rgb(5, 244, 25);
+
+
+// $spacer: 1rem;
+// $spacers: (
+//   0: 0,
+//   1: $spacer * .25,
+//   2: $spacer * .5,
+//   3: $spacer,
+//   4: $spacer * 1.5,
+//   5: $spacer * 3,
+//   6: $spacer * 10,
+// );
+
+// 去spacing里面的sass部分拷贝过来，添加一个6，就可以了
+// 1ère étape: modifier les variable
+
+// $success:#18e06b;
+
+// si on crée des class; ajouter les fichiers functions et variables
+
+@import "../bootstrap/scss/_functions.scss";
+@import "../bootstrap/scss/_variables.scss";
+
+$custom-colors: (
+  "dblue": #1621b9,
+  "dred":rgb(255,0,255)
+);
+
+// $colors: (
+//   "dblue": #1621b9
+// );  on peut écrire comme ça
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// 修改space的时候为什么要删除这两个？
+
+
+
+
+/* Pour créer de nouvelles classes : 
+Importer les fichiers dans cet ordre:
+functions.scss 
+et
+variables.scss
+*/
+
+
+// @import "../bootstrap/scss/_functions";
+// @import "../bootstrap/scss/_variables";
+
+// */
+// @import "../bootstrap/scss/functions";
+// @import "../bootstrap/scss/variables";
+
+@import "../bootstrap/scss/bootstrap";

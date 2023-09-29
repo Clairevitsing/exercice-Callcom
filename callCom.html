@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Booster:formation développement web</title>
+    <meta name="description" content="nous proposons des formations">
+    <!-- decrire le website -->
+    <!-- <link rel="stylesheet" href="bootstrap/dist/css/bootstrap-grid.min.css"> -->
+    <link href="./css/custom-bootstrap.css" rel="stylesheet">
+    <!-- bootstrap的链接保存一个就可以了，没必要保存两个 -->
+    <link rel="stylesheet" href="./css/callCom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- 谁在上面？ !important什么意思
+     fond-bleu -->
+    <title>callCom</title>
+</head>
+<body>
+
+ 
+
+  <!-- *******************navbar************* -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="#" class="navbar-brand">
+        <img src="./img/logo.png" alt="">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-uppercase fs-6 fw-bold" aria-current="page" href="#">accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase fs-6 fw-bold" href="#">nos offres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase fs-6 fw-bold" href="#">à propos</a>
+          </li>
+        </ul>
+
+
+        <div>
+            <!-- Button trigger modal -->
+         <span type="icone" class="text-uppercase fs-6 fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+         mon compte <i class="bi bi-arrow-right" style="font-size:1em"></i>
+         </span>
+
+       <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Log in</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Username/Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username or email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <!-- <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div> -->
+                      <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Sign up</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container">
+    <div class="row g-2">
+      <div class="col-6">
+        <div class="py-5 my-5 ms-2">
+          <h1 class="fs-2">Bienvenue chez <span class="text-dblue fw-bold">callcom</span>,<br>
+            opératuer nouvelle génération, évolutif et moderne.</h1>
+        </div>
+        
+        <div class="d-flex align-items-center p-2">
+          <div class="separator1"></div>
+          <span class="text-uppercase text-dblue ps-2">nos offres</span><i class="bi bi-arrow-right" style="font-size:1em"></i>
+        </div>
+          
+        
+      </div>
+        
+        <div class="col-6 two-pictures">
+          
+         <img src="./img/offre-1.png" class="img-fluid w-75" alt="">
+
+              <div class="decouvrir">
+                <span class="text-uppercase text-dblue ps-2">découvrir</span><i class="bi bi-arrow-right" style="font-size:1em"></i>
+                <div class="separator2"></div>
+              </div>
+          
+        </div>
+        
+      
+    </div>
+  </section>
+
+  <section class="container offres">
+    <div class="row-cols-lg-3">
+
+      <div class="col">
+          <div class="mobiles">
+          <img src="./img/phone-icon.png"  alt="" class="img-fluid w-75" >
+          <div class="mobiles">
+            <span class="text-uppercase text-dblue ps-2">Nos offres mobiles</span><i class="bi bi-arrow-right" style="font-size:1em"></i>
+            <div class="separator3"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="internet">
+        <img src="./img/phone-icon.png" alt="" class="img-fluid w-75" >
+        <div class="decouvrir">
+          <span class="text-uppercase text-dblue ps-2">Nos offres internet</span><i class="bi bi-arrow-right" style="font-size:1em"></i>
+          <div class="separator4"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="cloud">
+      <img src="./img/phone-icon.png" alt="" class="img-fluid" >
+      <div class="decouvrir">
+        <span class="text-uppercase text-dblue ps-2">Nos offres cloud</span><i class="bi bi-arrow-right" style="font-size:1em"></i>
+        <div class="separator5"></div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </section>
+
+  <section class="container pt-5">
+    <h2 class="text-center">Quelques raisons de passer chez <span class="text-dblue">callcom</span></h2>
+    <div class="row">
+      <!-- <div class="col"> -->
+        <div class="row ps-5">
+          <div class="col-2">
+            <img src="./img/number-1.png" alt="">
+          </div>
+          <div class="col-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, fugit!</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, fugit!</p>
+          </div>
+          <div class="col-2">
+            <img src="./img/number-2.png" alt="">
+          </div>
+        </div>
+
+       
+        <div class="row">
+          <div class="col-2">
+            <img src="./img/number-3.png" alt="">
+          </div>
+          <div class="col-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, fugit!</p>
+          </div>
+        </div>
+
+        
+        <div class="row">
+
+          <div class="col-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, fugit!</p>
+          </div>
+          <div class="col-2">
+            <img src="./img/number-4.png" class="img-fluid"  alt="">
+          </div>
+
+
+        <!-- </div> -->
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="container video">
+    <div></div>
+    <img src="../img/play-icon.png" alt="">
+
+  </section>
+
+  <section class="container">
+    <h2>contactez-moi</h2>
+    <form action="" class="row bg-dark py-5">
+      <div class="col-md-3">
+        <input type="text" required name="prenom" id="prenom" class="form-control w-50 champ" placeholder="Prenom">
+      </div>
+      <div class="col-md-3">
+        <input type="text" class="form-control" placeholder="Prenom">
+      </div>
+      <div class="col-md-3">
+        <!-- <div class="col-md-auto></div> 长度将根据内容来 -->
+        <input type="submit" class="btn btn-success" value="valider">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi sint blanditiis accusamus.</p>
+      </div>
+      <p>vous pouvez me contacter aussi à cette address </p>
+      
+    </form>
+  </section>
+
+  
+
+
+<script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+</body>
+</html>
